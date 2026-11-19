@@ -1,0 +1,457 @@
+{
+  "welcome": "Menura'ya hoş geldiniz! Menüyü görmek için 'menü' yazabilir, 'kahveler' gibi bir kategori ya da 'latte var mı?' gibi bir ürün sorabilirsiniz.",
+  "fallback": [
+    "Bunu tam anlayamadım. 'menü' yazabilir ya da kahveler, tatlılar, burgerler gibi bir kategori veya ürün sorabilirsiniz.",
+    "Bu soruya menüde bir karşılık bulamadım. Örneğin 'tatlı ne var?' ya da 'latte var mı?' diye sorabilirsiniz."
+  ],
+  "entries": [
+    {
+      "id": 1,
+      "user_input": "Merhaba",
+      "bot_response": [
+        "Merhaba, ben Menura! Menüyü görmek ister misiniz, yoksa aklınızda belirli bir şey mi var?",
+        "Hoş geldiniz! Kahvaltıdan tatlıya kadar menüdeki her şeyi sorabilirsiniz.",
+        "Selam! Bugün size ne getirelim? Örneğin 'tatlı ne var?' ya da 'ne önerirsin?' diye sorabilirsiniz."
+      ],
+      "tags": [
+        "selam",
+        "selamlar",
+        "merhaba",
+        "merhabalar",
+        "iyi günler",
+        "günaydın",
+        "iyi akşamlar",
+        "hey",
+        "slm",
+        "mrb"
+      ],
+      "index_items": false
+    },
+    {
+      "id": 21,
+      "user_input": "Nasılsın?",
+      "tags": [
+        "naber",
+        "nasılsın",
+        "nasılsınız",
+        "ne haber",
+        "nasıl gidiyor",
+        "napıyorsun",
+        "ne yapıyorsun",
+        "keyifler nasıl"
+      ],
+      "bot_response": [
+        "İyiyim, sorduğunuz için teşekkürler! Siz nasılsınız? Bugün canınız ne çekiyor?",
+        "Harikayım, mutfak da hazır! Size ne getirelim?",
+        "Çok iyiyim, teşekkürler. Kahve mi, tatlı mı, yoksa doyurucu bir şey mi istersiniz?"
+      ],
+      "index_items": false
+    },
+    {
+      "id": 22,
+      "user_input": "İyiyim",
+      "tags": [
+        "iyiyim",
+        "ben de iyiyim",
+        "fena değil",
+        "idare eder",
+        "süperim",
+        "harikayım",
+        "çok iyiyim"
+      ],
+      "bot_response": [
+        "Sevindim! Menüye göz atmak isterseniz 'menü' yazabilirsiniz.",
+        "Ne güzel! Size bir öneride bulunmamı ister misiniz? 'ne önerirsin' yazmanız yeterli."
+      ],
+      "index_items": false
+    },
+    {
+      "id": 23,
+      "user_input": "Kimsin?",
+      "tags": [
+        "kimsin",
+        "adın ne",
+        "ne yaparsın",
+        "bot musun",
+        "sen nesin",
+        "neler yapabilirsin",
+        "yardım",
+        "nasıl kullanılır"
+      ],
+      "bot_response": "Ben Menura, bu kafenin menü asistanıyım. Kategorileri ('tatlılar'), ürünleri ('latte var mı?') ve 'şekersiz', 'sütsüz', 'vejetaryen' gibi seçenekleri sorabilirsiniz.",
+      "index_items": false
+    },
+    {
+      "id": 2,
+      "user_input": "Kahvaltılar",
+      "bot_response": "\n\n ★★★ Kahvaltı Listesi ★★★  \n Serpme Kahvaltı \n Kahvaltı Tabağı\n Kuymak\n Sucuklu Yumurta\n Sahanda Sucuk\n Kavurmalı Yumurta\n Paçanga Böreği\n Menemen\n Pişi\n Omlet\n Sigara Böreği\n Patates Kızartması\n",
+      "tags": [
+        "Kahvaltı",
+        "Kahvaltı Çeşitleri",
+        "sabah kahvaltısı",
+        "kahvaltılık",
+        "serpme"
+      ],
+      "image": "assets/menu/kahvalti.jpg"
+    },
+    {
+      "id": 3,
+      "user_input": "Burgerler",
+      "bot_response": "\n\n ★★★ Burger Listesi ★★★ \n Alaturca Hamburger\n Cheeseburger\n Chicken Burger\n Dallas Burger\n\n【Burgerlerimiz patates, ranch sos, barbekü sos ve içecek ile servis edilir.】\n",
+      "tags": [
+        "Burger",
+        "Hamburger",
+        "Burger Çeşitleri",
+        "burger menü"
+      ],
+      "image": "assets/menu/burger.jpg"
+    },
+    {
+      "id": 4,
+      "user_input": "Tostlar",
+      "bot_response": "\n\n ★★★ Tost Listesi ★★★ \n Kaşarlı Tost \n Karışık Tost\n",
+      "tags": [
+        "Tost",
+        "Tost Çeşitleri"
+      ],
+      "image": "assets/menu/tost.jpg"
+    },
+    {
+      "id": 5,
+      "user_input": "Gözleme",
+      "bot_response": "\n\n ★★★ Gözleme Listesi ★★★ \n \n Patatesli Gözleme\n Kaşarlı Gözleme\n Karışık Gözleme\n",
+      "tags": [
+        "Gözleme",
+        "Gözlemeler",
+        "Gözleme Çeşitleri"
+      ],
+      "image": "assets/menu/gozleme.jpg"
+    },
+    {
+      "id": 6,
+      "user_input": "Aperatifler",
+      "bot_response": "\n\n ★★★ Aperatif Listesi ★★★ \n Parmak Patates\n Elma Dilim Patates\n Sigara Böreği\n Açma\n Soğan Halkası\n Parmak Tavuk\n",
+      "tags": [
+        "Aperatif",
+        "Atıştırmalık",
+        "Aperatif Çeşitleri",
+        "çerez",
+        "yanına bir şey",
+        "atıştırmalıklar"
+      ],
+      "image": "assets/menu/aperatif.jpg"
+    },
+    {
+      "id": 7,
+      "user_input": "Salata",
+      "bot_response": "\n\n ★★★ Salata Listesi ★★★ \n Akdeniz Salatası\n Çoban Salatası\n Yeşil Salata\n Rokalı Salata\n Kinoa Salatası\n Mevsim Salatası\n Ton Balıklı Salata\n Cevizli Salata\n",
+      "tags": [
+        "Salata",
+        "Salatalar",
+        "Salata Çeşitleri",
+        "hafif",
+        "hafif bir şey",
+        "hafif yemek",
+        "sağlıklı",
+        "diyet"
+      ],
+      "image": "assets/menu/salata.jpg"
+    },
+    {
+      "id": 8,
+      "user_input": "Makarnalar",
+      "bot_response": "\n\n ★★★ Makarna Listesi ★★★ \n  Spagetti\n  Penne\n  Farfalle (kelebek makarna)\n  Fusilli\n  Linguine\n  Rigatoni\n  Tagliatelle\n",
+      "tags": [
+        "Makarna",
+        "Makarna Çeşitleri"
+      ],
+      "image": "assets/menu/makarna.jpg"
+    },
+    {
+      "id": 10,
+      "user_input": "Ekmek Arası",
+      "bot_response": "\n\n ★★★ Ekmek Arası Listesi ★★★ \n Balık Ekmek\n Köfte Ekmek\n Sucuk Ekmek\n",
+      "tags": [
+        "Ekmek Arası",
+        "Ekmek Arası Çeşitleri",
+        "sandviç",
+        "ekmek arası"
+      ],
+      "image": "assets/menu/ekmek-arasi.jpg"
+    },
+    {
+      "id": 11,
+      "user_input": "Tatlılar",
+      "bot_response": "\n\n ★★★ Tatlı Listesi ★★★ \n Profiterol\n Cheesecake\n Baklava\n Tiramisu\n İrmik Helvası\n Brownie\n Muhallebi\n Magnolia\n Kadayıf\n Ekmek Kadayıfı\n Trileçe\n Şekerpare\n Şöbiyet\n Sufle\n Lokma\n Künefe\n Revani\n Katmer\n Krem Karamel\n Ayva Tatlısı\n",
+      "tags": [
+        "Tatlı",
+        "Tatlı Çeşitleri",
+        "tatlılar",
+        "pasta",
+        "şerbetli tatlı",
+        "sütlü tatlı",
+        "tatlı bir şey"
+      ],
+      "image": "assets/menu/tatli.jpg"
+    },
+    {
+      "id": 12,
+      "user_input": "Kahveler",
+      "bot_response": "\n\n ★★★ Kahve Listesi ★★★ \n Espresso\n Americano\n Latte\n Cappuccino\n Macchiato\n Mocha\n Flat White\n Turkish Coffee (Türk Kahvesi)\n Affogato\n Lungo\n Ristretto\n Cortado\n Irish Coffee\n Viennese Coffee\n Frappe\n",
+      "tags": [
+        "Kahve",
+        "Kahve Çeşitleri",
+        "sıcak içecek",
+        "sıcak içecekler",
+        "kahveler",
+        "sıcak bir şey",
+        "sıcak"
+      ],
+      "image": "assets/menu/kahve.jpg"
+    },
+    {
+      "id": 13,
+      "user_input": "Meşrubatlar",
+      "bot_response": "\n\n ★★★ Meşrubat Listesi ★★★ \n Coca-Cola\n Coca-Cola Zero\n Fanta\n Sprite\n Fuse Tea\n Meyve Suyu\n Soda Çeşitleri\n Churchill\n Ayran\n Su\n Şalgam\n Bardak Çay\n",
+      "tags": [
+        "Meşrubat",
+        "İçecek",
+        "İçecekler",
+        "Meşrubat Çeşitleri",
+        "kola",
+        "soğuk içecek",
+        "soğuk içecekler",
+        "gazlı içecek",
+        "meyve suyu",
+        "soğuk bir şey",
+        "serinletici",
+        "susadım",
+        "susuzum",
+        "içecek bir şey"
+      ],
+      "image": "assets/menu/mesrubat.jpg"
+    },
+    {
+      "id": 14,
+      "user_input": "Milkshake",
+      "bot_response": "\n\n ★★★ Milkshake Listesi ★★★ \n Çikolata\n Karamel\n Vanilya\n Çilek\n",
+      "tags": [
+        "Milkshake",
+        "Milkshake Çeşitleri",
+        "milkshakeler",
+        "shake"
+      ],
+      "image": "assets/menu/milkshake.jpg"
+    },
+    {
+      "id": 15,
+      "user_input": "Menü",
+      "bot_response": "\n\n ★★★ Tam Menü ★★★ \n\nKahvaltılar: \n - Serpme Kahvaltı\n - Kahvaltı Tabağı\n - Kuymak\n - Sucuklu Yumurta\n - Sahanda Sucuk\n - Kavurmalı Yumurta\n - Paçanga Böreği\n - Menemen\n - Pişi\n - Omlet\n - Sigara Böreği\n - Patates Kızartması\n\nBurgerler: \n - Alaturca Hamburger\n - Cheeseburger\n - Chicken Burger\n - Dallas Burger\n\n【Burgerlerimiz patates, ranch sos, barbekü sos ve içecek ile servis edilir.】\n\nTostlar: \n - Kaşarlı Tost \n - Karışık Tost\n\nGözleme: \n - Patatesli Gözleme\n - Kaşarlı Gözleme\n - Karışık Gözleme\n\nAperatifler: \n - Parmak Patates\n - Elma Dilim Patates\n - Sigara Böreği\n - Açma\n - Soğan Halkası\n - Parmak Tavuk\n\nSalata: \n - Akdeniz Salatası\n - Çoban Salatası\n - Yeşil Salata\n - Rokalı Salata\n - Kinoa Salatası\n - Mevsim Salatası\n - Ton Balıklı Salata\n - Cevizli Salata\n\nMakarnalar: \n - Spagetti\n - Penne\n - Farfalle (kelebek makarna)\n - Fusilli\n - Linguine\n - Rigatoni\n - Tagliatelle\n\nEkmek Arası: \n - Balık Ekmek\n - Köfte Ekmek\n - Sucuk Ekmek\n\nTatlılar: \n - Profiterol\n - Cheesecake\n - Baklava\n - Tiramisu\n - İrmik Helvası\n - Brownie\n - Muhallebi\n - Magnolia\n - Kadayıf\n - Ekmek Kadayıfı\n - Trileçe\n - Şekerpare\n - Şöbiyet\n - Sufle\n - Lokma\n - Künefe\n - Revani\n - Katmer\n - Krem Karamel\n - Ayva Tatlısı\n\nKahveler: \n - Espresso\n - Americano\n - Latte\n - Cappuccino\n - Macchiato\n - Mocha\n - Flat White\n - Turkish Coffee (Türk Kahvesi)\n - Affogato\n - Lungo\n - Ristretto\n - Cortado\n - Irish Coffee\n - Viennese Coffee\n - Frappe\n\nMeşrubatlar: \n - Coca-Cola\n - Coca-Cola Zero\n - Fanta\n - Sprite\n - Fuse Tea\n - Meyve Suyu\n - Soda Çeşitleri\n - Churchill\n - Ayran\n - Su\n - Şalgam\n - Bardak Çay\n\nMilkshake: \n - Çikolata\n - Karamel\n - Vanilya\n - Çilek\n",
+      "tags": [
+        "Menü",
+        "menu",
+        "Tam Menü",
+        "menüyü göster",
+        "neler var",
+        "menünüz",
+        "yemekler"
+      ],
+      "index_items": false
+    },
+    {
+      "id": 16,
+      "user_input": "Teşekkürler",
+      "bot_response": [
+        "Rica ederim! Başka bir isteğiniz olursa yazabilirsiniz.",
+        "Ne demek, afiyet olsun!",
+        "Rica ederim, başka bir şey sormak isterseniz buradayım."
+      ],
+      "tags": [
+        "teşekkür ederim",
+        "sağ ol",
+        "sağolun",
+        "eyvallah"
+      ],
+      "index_items": false
+    },
+    {
+      "id": 17,
+      "user_input": "Görüşürüz",
+      "bot_response": [
+        "Afiyet olsun, yine bekleriz!",
+        "Görüşmek üzere, iyi günler!",
+        "Yine bekleriz, kendinize iyi bakın!"
+      ],
+      "tags": [
+        "hoşça kal",
+        "güle güle",
+        "bay bay",
+        "kendine iyi bak",
+        "sonra görüşürüz"
+      ],
+      "index_items": false
+    },
+    {
+      "id": 24,
+      "user_input": "Acıktım",
+      "tags": [
+        "acıktım",
+        "karnım aç",
+        "çok açım",
+        "doyurucu",
+        "doyurucu bir şey",
+        "yemek"
+      ],
+      "bot_response": [
+        "Doyurucu bir şey için burgerlerimize, makarnalarımıza ya da ekmek aralarımıza bakabilirsiniz. Güne yeni başlıyorsanız serpme kahvaltı da harika bir seçim!",
+        "Hemen bir şeyler ayarlayalım! Burgerler, makarnalar ve ekmek aralarımız en doyurucu seçeneklerimiz."
+      ],
+      "index_items": false
+    },
+    {
+      "id": 18,
+      "user_input": "Ne önerirsin?",
+      "action": "recommend",
+      "recommend_from": [
+        "Kahvaltılar",
+        "Kahveler",
+        "Tatlılar"
+      ],
+      "bot_response": [
+        "Bugün için {0}, yanında da {1} öneririm. Tatlı olarak {2} deneyebilirsiniz.",
+        "{0} ile başlayıp yanında {1} içebilirsiniz; tatlı isterseniz {2} güzel bir seçim.",
+        "Benim önerim: {0}, {1} ve son olarak {2}."
+      ],
+      "tags": [
+        "öneri",
+        "önerin",
+        "önerirsin",
+        "önerir",
+        "tavsiye",
+        "tavsiyen",
+        "ne yesem",
+        "ne içsem",
+        "ne alayım"
+      ],
+      "index_items": false
+    },
+    {
+      "id": 19,
+      "user_input": "Fiyatlar",
+      "bot_response": "Bu demoda fiyat bilgisi bulunmuyor; güncel fiyatları kasadan öğrenebilirsiniz.",
+      "tags": [
+        "fiyat",
+        "fiyatı",
+        "fiyatlar",
+        "kaç para",
+        "ücret",
+        "pahalı"
+      ],
+      "index_items": false
+    },
+    {
+      "id": 20,
+      "user_input": "Hesap",
+      "bot_response": "Hesabınızı kasada ödeyebilirsiniz. Afiyet olsun!",
+      "tags": [
+        "hesap",
+        "hesabı",
+        "ödeme",
+        "ödemek",
+        "kart"
+      ],
+      "index_items": false
+    }
+  ],
+  "modifiers": [
+    {
+      "name": "şekersiz",
+      "patterns": [
+        "şekersiz",
+        "şeker olmasın",
+        "şeker koymayın",
+        "az şekerli",
+        "diyabetik"
+      ],
+      "notes": {
+        "Kahveler": "Tüm kahvelerimizi şekersiz hazırlayabiliriz; şeker isterseniz ayrıca getiriyoruz.",
+        "Meşrubatlar": "Şekersiz seçeneklerimiz: Coca-Cola Zero, ayran, su ve şalgam.",
+        "Milkshake": "Milkshake'lerimiz şuruplu hazırlandığı için şekersiz seçeneğimiz yok; şekersiz bir kahve önerebilirim.",
+        "Tatlılar": "Tatlılarımız şekerli hazırlanıyor; daha hafif bir şey isterseniz salatalarımıza göz atabilirsiniz."
+      },
+      "default": "Siparişinizi şekersiz isteyebilirsiniz; sipariş verirken belirtmeniz yeterli."
+    },
+    {
+      "name": "sütsüz",
+      "patterns": [
+        "sütsüz",
+        "laktoz",
+        "süt olmasın",
+        "bitki sütü",
+        "badem sütü",
+        "yulaf sütü"
+      ],
+      "notes": {
+        "Kahveler": "Espresso, Americano, Lungo ve Ristretto zaten sütsüz. Latte, Cappuccino ve diğer sütlü kahveleri laktozsuz ya da yulaf sütüyle hazırlayabiliriz.",
+        "Milkshake": "Milkshake'lerimizi laktozsuz sütle hazırlayabiliriz."
+      },
+      "default": "Sütlü ürünlerimizi laktozsuz sütle hazırlayabiliriz."
+    },
+    {
+      "name": "buzlu",
+      "patterns": [
+        "buzlu",
+        "=ice",
+        "=iced",
+        "soğuk kahve"
+      ],
+      "notes": {
+        "Kahveler": "Latte, Americano ve Mocha'yı buzlu hazırlayabiliriz; Frappe zaten soğuk servis ediliyor.",
+        "Meşrubatlar": "Tüm içeceklerimiz soğuk servis ediliyor; isterseniz buz da ekleriz."
+      },
+      "default": "İçeceğinizi buzlu hazırlayabiliriz."
+    },
+    {
+      "name": "acılı",
+      "patterns": [
+        "acılı",
+        "acısız",
+        "acı sos",
+        "baharatlı"
+      ],
+      "notes": {
+        "Burgerler": "Burgerlerinize acı sos ekleyebiliriz; acısız da hazırlanabilir.",
+        "Ekmek Arası": "Ekmek aralarına acı sos ya da pul biber ekleyebiliriz.",
+        "Makarnalar": "Makarnalarımızı isterseniz acılı sosla hazırlayabiliriz.",
+        "Aperatifler": "Aperatiflerin yanında acı sos da isteyebilirsiniz."
+      },
+      "default": "Acı tercihinizi sipariş verirken belirtebilirsiniz."
+    },
+    {
+      "name": "vejetaryen",
+      "patterns": [
+        "vejetaryen",
+        "vegan",
+        "etsiz",
+        "et yemiyorum",
+        "et olmasın"
+      ],
+      "notes": {},
+      "default": "Etsiz seçeneklerimiz: salatalarımız (Ton Balıklı hariç), Patatesli ve Kaşarlı Gözleme, Kaşarlı Tost, makarnalarımız ve tatlılarımız. Vegan tercihler için sütsüz seçenekleri de sorabilirsiniz."
+    },
+    {
+      "name": "boy",
+      "patterns": [
+        "büyük boy",
+        "küçük boy",
+        "orta boy",
+        "duble"
+      ],
+      "notes": {
+        "Kahveler": "Kahvelerimizi küçük, orta ve büyük boy hazırlayabiliriz; espresso bazlı kahveler duble de olabilir.",
+        "Milkshake": "Milkshake'lerimiz orta ve büyük boy hazırlanıyor."
+      },
+      "default": "Boy seçeneği kahvelerde ve milkshake'lerde var."
+    }
+  ]
+}
